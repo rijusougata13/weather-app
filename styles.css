@@ -1,0 +1,26 @@
+body{
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: .8em;
+}
+
+input{
+    max-width: 350px;
+}
+
+.card{
+    margin-left: 20px;
+    margin-left: 21px;
+
+}
+.container{
+    max-width: 400px;
+}
+
+.icon{
+    position: relative;
+    top: -40px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
