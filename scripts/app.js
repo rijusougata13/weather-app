@@ -57,6 +57,7 @@ cityForm.addEventListener('submit',e=>{
     localStorage.setItem('city',city);
 });
 
+
 if(localStorage.getItem('city')){
     forecast.updateCity(localStorage.getItem('city')).then(data=>{
         // console.log(data);
