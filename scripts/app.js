@@ -51,6 +51,7 @@ cityForm.addEventListener('submit',e=>{
     forecast.updateCity(city).then(data=>{
         // console.log(data);
       updateUI(data);
+
       
     }).catch(err=>{
 
